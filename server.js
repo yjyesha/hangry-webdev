@@ -17,6 +17,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //require("./test/app");
-require("./public/project/Foodie/serverSide/app");
+require("./serverSide/app");
 port = process.env.PORT || 3000;
 app.listen(port);

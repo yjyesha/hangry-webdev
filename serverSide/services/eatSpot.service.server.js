@@ -1,7 +1,7 @@
 /**
  * Created by yeshajoshi on 7/23/2017.
  */
-var app = require("../../../../../express");
+var app = require("../../express");
 var eatSpotModel = require("../models/eatSpot/eatSpot.model.server");
 
 // http handlers
